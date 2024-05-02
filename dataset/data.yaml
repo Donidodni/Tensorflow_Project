@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [10, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+nc: 1
+names: ['Hand']
+
+roboflow:
+  workspace: kimminseok-psw00
+  project: human-pose-detection-b64xa
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kimminseok-psw00/human-pose-detection-b64xa/dataset/5
